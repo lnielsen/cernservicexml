@@ -14,8 +14,8 @@ from __future__ import absolute_import, print_function, unicode_literals
 from datetime import datetime
 from decimal import Decimal
 from os.path import dirname, join
-
 from StringIO import StringIO
+
 import pytest
 from cernservicexml import ServiceDocument
 from lxml import etree
